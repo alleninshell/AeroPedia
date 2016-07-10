@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:dividerPadding="1dp"
+    android:divider="#c8c8c8"
+    android:showDividers="middle">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:text="公司"
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:showDividers="middle">
+
+        <ToggleButton
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="New ToggleButton"
+            android:id="@+id/toggleButton"
+            android:layout_weight="1" />
+
+        <ToggleButton
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="New ToggleButton"
+            android:id="@+id/toggleButton2"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:text="机型"
+        android:id="@+id/textView5"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:showDividers="middle">
+
+        <ToggleButton
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="New ToggleButton"
+            android:id="@+id/toggleButton3"
+            android:layout_weight="1" />
+
+        <ToggleButton
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="New ToggleButton"
+            android:id="@+id/toggleButton4"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:showDividers="middle">
+
+        <ToggleButton
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="New ToggleButton"
+            android:id="@+id/toggleButton5"
+            android:layout_weight="1" />
+
+        <ToggleButton
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="New ToggleButton"
+            android:id="@+id/toggleButton6"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:showDividers="middle">
+
+        <ToggleButton
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="New ToggleButton"
+            android:id="@+id/toggleButton7"
+            android:layout_weight="1" />
+
+        <ToggleButton
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="New ToggleButton"
+            android:id="@+id/toggleButton8"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:text="搜索"
+        android:id="@+id/textView6"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:gravity="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/editText3"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@android:id/list"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="New Button"
+            android:id="@+id/button2"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="New Button"
+            android:id="@+id/button3"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>

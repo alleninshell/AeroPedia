@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:divider="#c8c8c8"
+        android:dividerPadding="1dp"
+        android:showDividers="middle">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="机型"
+            android:id="@+id/textView"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textIsSelectable="false"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="飞行区指标"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textIsSelectable="false"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="基准场地长度"
+            android:id="@+id/textView3"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textIsSelectable="false"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@android:id/list"
+        android:choiceMode="multipleChoice"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="false"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_below="@+id/linearLayout"
+        android:dividerHeight="1dp"
+        android:drawSelectorOnTop="false"
+        android:minHeight="0dp"
+        android:smoothScrollbar="false"
+        android:divider="#c8c8c8" />
+
+</RelativeLayout>
